@@ -1,0 +1,21 @@
+{
+  "name": "school-finder",
+  "version": "1.0.0",
+  "description": "this is a demo application made with react, express, mongodb and nodejs,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nishant",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "guid": "0.0.12",
+    "gulp": "^3.9.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "school-finder",
+  "description": "this is a demo application made with react, express, mongodb and nodejs,",
+  "main": "index.js",
+  "authors": [
+    "nishant"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "~3.3.4"
+  }
+}
