@@ -13,7 +13,7 @@ module.exports = React.createClass({
                     {this.props.info.name}
                     <span className="pull-right text-uppercase delete-button" onClick={this.deleteSchool}>&times;</span>
                 </div>
-                <div className="panel-body">This is some random info about school</div>
+                <div className="panel-body">{this.props.info.tagline}</div>
             </div>
         )
     }

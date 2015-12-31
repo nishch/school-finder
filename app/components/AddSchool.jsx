@@ -5,7 +5,7 @@ module.exports = React.createClass({
     getInitialState:function(){
       return {
           name:"",
-          address:""
+          tagline:""
       }  
     },
     addSchool:function(e){
@@ -27,8 +27,8 @@ module.exports = React.createClass({
                     <input type="text" className="form-control" id="name" name="name" value={this.state.name} onChange={this.handleInputChange} placeholder="School Name" />                    
                 </div>
                 <div className="form-group">
-                    <label className="control-label" htmlFor="address">Address:</label>
-                    <input type="text" className="form-control" id="address" name="address" value={this.state.address} onChange={this.handleInputChange} placeholder="School Address" />                    
+                    <label className="control-label" htmlFor="tagline">Tagline:</label>
+                    <input type="text" className="form-control" id="tagline" name="tagline" value={this.state.address} onChange={this.handleInputChange} placeholder="Tagline" />                    
                 </div>
                 <div className="form-group">
                     <button className="btn" type="submit">Add School</button>
